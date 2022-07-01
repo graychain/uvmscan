@@ -216,7 +216,7 @@ export const useTxData = (
           _block = await readBlock(provider, _response.blockNumber.toString());
         }
 
-        document.title = `Transaction ${_response.hash} | Otterscan`;
+        document.title = `Transaction ${_response.hash} | UVMScan`;
 
         // Extract token transfers
         const tokenTransfers: TokenTransfer[] = [];

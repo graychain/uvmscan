@@ -1,8 +1,8 @@
 import React from "react";
-import Otter from "./otter.jpg";
+import Otter from "./uvm_logo.png";
 
 const Logo: React.FC = () => (
-  <div className="mx-auto text-6xl text-link-blue font-title font-bold cursor-default flex items-center space-x-4">
+  <div className="mx-auto text-4xl text-link-gray font-title font-bold cursor-default flex items-center space-x-4">
     <img
       className="rounded-full"
       src={Otter}
@@ -11,7 +11,7 @@ const Logo: React.FC = () => (
       alt="An otter scanning"
       title="An otter scanning"
     />
-    <span>Otterscan</span>
+    <span>Urbit Virtual Machine</span>
   </div>
 );
 

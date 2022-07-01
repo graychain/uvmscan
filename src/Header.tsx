@@ -6,7 +6,7 @@ import PriceBox from "./PriceBox";
 import SourcifyMenu from "./SourcifyMenu";
 import { RuntimeContext } from "./useRuntime";
 import { useGenericSearch } from "./search/search";
-import Otter from "./otter.jpg";
+import Otter from "./uvm_logo.png";
 
 const CameraScanner = React.lazy(() => import("./search/CameraScanner"));
 
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       {isScanning && <CameraScanner turnOffScan={() => setScanning(false)} />}
       <div className="px-9 py-2 flex justify-between items-baseline">
         <Link className="self-center" to="/">
-          <div className="text-2xl text-link-blue font-title font-bold flex items-center space-x-2">
+          <div className="text-xl text-link-gray font-title font-bold flex items-center space-x-2">
             <img
               className="rounded-full"
               src={Otter}
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
               alt="An otter scanning"
               title="An otter scanning"
             />
-            <span>Otterscan</span>
+            <span>Urbit Virtual Machine</span>
           </div>
         </Link>
         <div className="flex items-baseline space-x-3">

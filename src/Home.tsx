@@ -20,7 +20,7 @@ const Home: React.FC = () => {
   const latestBlock = useLatestBlock(provider);
   const [isScanning, setScanning] = useState<boolean>(false);
 
-  document.title = "Home | Otterscan";
+  document.title = "Home | UVMScan";
 
   return (
     <div className="mx-auto flex flex-col flex-grow pb-5">
