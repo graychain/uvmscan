@@ -16,8 +16,8 @@ export const defaultChainInfo: ChainInfo = {
   network: undefined,
   faucets: [],
   nativeCurrency: {
-    name: "Ether",
-    symbol: "ETH",
+    name: "Urbit",
+    symbol: "$U",
     decimals: 18,
   },
 };

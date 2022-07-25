@@ -4,7 +4,7 @@ import { RuntimeContext } from "./useRuntime";
 const WarningHeader: React.FC = () => {
   const { provider } = useContext(RuntimeContext);
   const chainId = provider?.network.chainId;
-  if (chainId === 1) {
+  if (chainId === 1 || chainId === 444) {
     return <></>;
   }
 

@@ -64,7 +64,7 @@ const Home: React.FC = () => {
       </form>
       <div className="mx-auto h-32">
         <div className="text-lg text-link-blue hover:text-link-blue-hover font-bold">
-          {provider?.network.chainId !== 11155111 && (
+          {provider?.network.chainId !== 444 && (
             <NavLink to="/special/london">
               <div className="flex space-x-2 items-baseline text-orange-500 hover:text-orange-700 hover:underline">
                 <span>
