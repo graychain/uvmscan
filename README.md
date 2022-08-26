@@ -1,12 +1,12 @@
-# Otterscan
+# UVMScan
 
-An open-source, fast, local, laptop-friendly Ethereum block explorer.
+An open-source, fast, local, laptop-friendly Urbit Virtual Machine block explorer.
 
-https://user-images.githubusercontent.com/28685/124196700-4fe71200-daa3-11eb-912c-b66494fe4b23.mov
+<img src="https://explorer.uvm.network/static/media/uvm_logo.13820580.png" alt="drawing" width="200"/>
 
 ## What?
 
-This is an Ethereum block explorer designed to be run locally with an archive node companion, more specifically, with [Erigon](https://github.com/ledgerwatch/erigon).
+This is a UVM block explorer designed to be run locally with an archive node companion, more specifically, with [Erigon](https://github.com/ledgerwatch/erigon). It is based on the excellent work by the Otterscan team.
 
 This approach brings many advantages, as follows.
 
@@ -98,18 +98,26 @@ Also there is room for many improvements that are not possible in the current ce
 
 This software itself is MIT licensed and redistributes MIT-compatible dependencies.
 
-The Otterscan patches for Erigon are LGPL-3 as required by Geth (since Erigon is a Geth derivative) and kept in a separate repository.
+The UVMScan patches for Erigon are LGPL-3 as required by Geth (since Erigon is a Geth derivative) and kept in a separate repository.
 
 ## Getting in touch
 
-### Erigon Discord server
+### Urbit Group
 
-Otterscan has a community channel under the "ecosystem" section of [Erigon's Discord](https://github.com/ledgerwatch/erigon#erigon-discord-server).
+<a style="color:black;" href="web+urbitgraph://group/~bindel-batdul/urbit-virtual-machine">~bindel-batdul/urbit-virtual-machine</a>
 
 ### Twitter
 
+<a style="color:black;" href="https://twitter.com/uvm_network">uvm_network</a>
+
+### Otterscan Erigon Discord server
+
+Otterscan has a community channel under the "ecosystem" section of [Erigon's Discord](https://github.com/ledgerwatch/erigon#erigon-discord-server).
+
+### Otterscan Twitter
+
 Follow the creator on Twitter for updates ([@wmitsuda](https://twitter.com/wmitsuda)).
 
-### Donation address
+### Otterscan Donation address
 
 If you like this project, feel free to send donations to `otterscan.eth` or use our gitcoin grant page: https://gitcoin.co/grants/3224/otterscan
