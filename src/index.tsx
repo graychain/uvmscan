@@ -11,7 +11,9 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* @ts-ignore */}
     <HelmetProvider>
+      {/* @ts-ignore */}
       <Helmet>
         <link
           rel="preload"
